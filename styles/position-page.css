@@ -6,28 +6,21 @@ nav {
 	background-color: darkgrey;
 	position: fixed;
 	text-align: left;
+	top: 0px;
 	width: 100%;
-	margin-top: -200px;
-
-
-
+	z-index: 999;
+	
 }
 .navcat {
-	position: fixed;
-	border: 1px solid black;
-	border-radius: 25px;
-	height: 50px;
-	margin-top: 5px;
-  	margin-bottom: 5px;
-
+	
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    margin-right: 20px;
 	}
-
-ul {
-	position: fixed;
-	top: 5px;
-	padding-left: 60px;
-	text-align: vertical;
-}
 
 ul li {
 	display: inline;
@@ -55,25 +48,24 @@ body {
 }
 
 .spacecat{
-	position:relative;
-	width: 200px;
-	height: 200px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	left: -300px;
-	top: -400px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: -100px;
+    top: -100px;
+	
+
+
+	
 
 }
 
 .spacedog{
-	position:relative;
-	width: 200px;
-	height: 200px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	left: 300px;
-	top: -300px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: -100px;
+    bottom: -100px;
+	
 
 }
